@@ -4,6 +4,14 @@ A responsive, static, conversion-focused concept for DM Dance Studio Nallagandla
 
 This is **not an official owner-operated website**. It is deliberately `noindex, nofollow`. The requester confirmed permission to use selected official-account media; business facts, policies, participant releases and production-domain use still require owner approval.
 
+## Hosted preview
+
+- Website: `https://unleashedcubing.github.io/dm-dance-studio/`
+- Owner pitch: `https://unleashedcubing.github.io/dm-dance-studio/pitch-deck/`
+- Repository: `https://github.com/unleashedcubing/dm-dance-studio`
+
+GitHub Pages publishes the root of `main`. This remains an independent, noindex concept preview rather than the studio's approved production website.
+
 ## Local setup
 
 No dependency installation or build is required. Start a local server with:

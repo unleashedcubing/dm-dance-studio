@@ -2,15 +2,22 @@
 
 ## Current deployment state
 
-Not deployed. The project is directly deployable static HTML, CSS and JavaScript with no build step or backend dependency.
+Preview deployed on GitHub Pages from the root of `main` with HTTPS enforced.
+
+- Repository: `https://github.com/unleashedcubing/dm-dance-studio`
+- Public preview: `https://unleashedcubing.github.io/dm-dance-studio/`
+- Owner pitch: `https://unleashedcubing.github.io/dm-dance-studio/pitch-deck/`
+- Initial deployed commit: `beb9f1627074d8216e9bef1ae2b57d66fed0f508`
+
+The project is static HTML, CSS and JavaScript with no build step or backend dependency. GitHub Pages uses `main` and `/(root)` as the publishing source; `.nojekyll` prevents Jekyll processing.
 
 ## Temporary preview
 
-1. Run `npm run verify` and complete the browser QA checklist in `docs/HANDOFF.md`.
-2. Deploy `index.html`, `privacy.html`, `terms.html`, `404.html`, `pitch-deck/`, `assets/`, `icons/`, `src/` and `robots.txt` to an explicitly temporary preview URL.
-3. Preserve `noindex,nofollow` and `robots.txt: Disallow /`.
-4. Recheck the hosted base path, main links, console, mobile navigation and WhatsApp handoff.
-5. Label the URL as an independent concept, not the business’s official site.
+1. Run `npm run verify` before each push.
+2. Push the reviewed commit to `main`; GitHub Pages republishes the root automatically.
+3. Preserve `noindex,nofollow` and `robots.txt: Disallow /` while this is a concept preview.
+4. Recheck the hosted base path, main links, console, mobile navigation and WhatsApp handoff after each material release.
+5. Continue labeling the URL as an independent concept, not the business’s official site.
 
 The pitch deck lives at `/pitch-deck/`. Keep it `noindex, nofollow`; if it contains future commercial terms, review those terms separately before sharing.
 

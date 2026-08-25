@@ -24,11 +24,13 @@
 
 ## Credentials or provider accounts
 
-None are required for local or static preview use. Production requires an owner-controlled domain registrar, DNS and static-host account. No email, database, analytics or authentication provider is currently needed.
+None are required for local or public-preview use. The current GitHub repository and Pages preview are controlled by the requester’s `unleashedcubing` account. Production requires an owner-controlled domain registrar and DNS account; the studio should also control the final source and hosting access. No email, database, analytics or authentication provider is currently needed.
 
 ## Owner pitch
 
 Local URL: `http://127.0.0.1:4173/pitch-deck/`
+
+Hosted URL: `https://unleashedcubing.github.io/dm-dance-studio/pitch-deck/`
 
 The pitch connects the website features to customer clarity and a lower-friction studio enquiry journey without guaranteeing outcomes. It contains no commercial pricing because no owner-pitch terms were supplied. The deck states that terms must be agreed separately.
 
@@ -42,4 +44,4 @@ There is no customer demo data. Unconfirmed schedules, prices and people are int
 - Official-account logo and photos are in use with requester-confirmed permission, but the available files are social-media derivatives; production should use supplied masters and retain release records.
 - Legal copy is a concept, not jurisdiction-specific legal advice.
 - A static WhatsApp journey has no lead history, analytics or staff workflow; add those only after verified operational need and secure backend design.
-- The site is not deployed and has not been approved by the business.
+- The site is deployed only as an independent GitHub Pages preview and has not been approved by the business or connected to an owner-controlled production domain.
