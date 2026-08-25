@@ -94,7 +94,8 @@ h1 em, h2 em { display: inline-block; color: var(--red); font-weight: 400; }
 .photo-credit:hover { background: white; transform: rotate(0) translateY(-2px); }
 
 .rhythm-strip { width: 100%; margin-top: 85px; overflow: hidden; border-block: 1px solid var(--ink); background: var(--red); color: var(--cream); }
-.rhythm-strip > div { width: max-content; min-height: 52px; display: flex; align-items: center; gap: 28px; animation: marquee 24s linear infinite; }
+.marquee-track { width: max-content; min-height: 52px; display: flex; align-items: stretch; animation: marquee 24s linear infinite; }
+.marquee-group { min-width: 100vw; flex: none; display: flex; align-items: center; justify-content: space-around; gap: 28px; padding-inline: 24px; }
 .rhythm-strip span { font-family: var(--display); font-size: 1.32rem; font-style: italic; }
 .rhythm-strip b { color: var(--gold); }
 
@@ -300,7 +301,8 @@ h1 em, h2 em { display: inline-block; color: var(--red); font-weight: 400; }
   .record { width: 128px; height: 128px; right: -42px; top: -40px; }
   .photo-credit { right: 10px; bottom: 9px; }
   .rhythm-strip { margin-top: 60px; }
-  .rhythm-strip > div { min-height: 46px; gap: 22px; }
+  .marquee-track { min-height: 46px; }
+  .marquee-group { gap: 22px; padding-inline: 16px; }
   .section { padding: 82px 0; }
   .split-heading { grid-template-columns: 1fr; gap: 24px; }
   .class-grid { grid-template-columns: 1fr; margin-top: 38px; }
