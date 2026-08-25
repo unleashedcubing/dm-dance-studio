@@ -1,0 +1,13 @@
+{
+  "name": "dm-dance-studio-nallagandla",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "check:js": "node --check src/data/business.js && node --check src/trial.js && node --check src/main.js && node --check src/legal.js && node --check pitch-deck/deck.js",
+    "test": "node --test tests/unit/*.test.js",
+    "check:links": "node scripts/check-links.mjs",
+    "verify": "npm run check:js && npm run test && npm run check:links"
+  }
+}
