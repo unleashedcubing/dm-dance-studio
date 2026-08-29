@@ -75,7 +75,7 @@ At every checked width, `document.documentElement.scrollWidth` equalled the view
 
 ## Hosted verification
 
-- GitHub Pages build and deployment for the update containing feature commit `f3966be`: **success**.
+- GitHub Pages build and deployment for the latest reviewed `main` branch: **success**.
 - Public website: **200** at `https://unleashedcubing.github.io/dm-dance-studio/`.
 - Owner pitch: **200** at `https://unleashedcubing.github.io/dm-dance-studio/pitch-deck/`.
 - Privacy and terms pages: **200**.
