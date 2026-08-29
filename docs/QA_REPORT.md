@@ -1,4 +1,4 @@
-# QA report — 2026-08-25
+# QA report — 2026-08-29
 
 ## Automated, zero-dependency checks
 
@@ -20,6 +20,7 @@ Browser: Codex in-app Chromium surface against `http://127.0.0.1:4173/`.
 
 - Home title and primary H1: **pass**.
 - Verified call, Google Maps, Instagram and WhatsApp links populated from the single business data source: **pass**.
+- Call links remain on the verified public studio number, while every preview WhatsApp entry point resolves to the requester-supplied temporary destination `7702504241`: **pass**.
 - Embedded Google Map resolves the correct DM Dance Studio Nallagandla listing and retains a direct directions fallback: **pass**.
 - Brand-color logo, favicon and three local official-account images load with their declared dimensions: **pass**.
 - Nine Instagram profile/reel links resolve to the expected official profile or exact reel; both gallery captions expose “Watch the full dance”: **pass**.
@@ -42,13 +43,13 @@ Browser: Codex in-app Chromium surface against `http://127.0.0.1:4173/`.
 - Owner-facing copy addresses the studio directly with consistent “you/your” language and uses “we/our” only for the proposed delivery partnership: **pass**.
 - Nine slides render with exactly one active slide at a time: **pass**.
 - Previous/next buttons, live counter, URL hash, document title and progress bar update together: **pass**.
-- Left/right keyboard navigation and Page Down scrolling within the active slide: **pass**.
+- Left/right and Page Up/Page Down keyboard navigation move between slides without creating internal slide scrolling: **pass**.
 - All nine slides have zero page overflow at 1600×900; the complete 16:9 presentation frame and controls fit without scrolling: **pass**.
-- All nine slides have zero horizontal overflow in a 390×693 9:16 mobile view; the control bar remains outside the slide canvas: **pass**.
+- All nine slides fit without horizontal or vertical overflow at 390×844 and the shorter 390×693 mobile viewport; the control bar remains outside the slide canvas: **pass**.
 - Presentation framing: centered 16:9 canvas above 760 px and centered 9:16 canvas on mobile, with controls reserved outside the frame: **pass**.
 - Deck logo and studio imagery load; the final website and Instagram actions resolve correctly: **pass**.
 - Reduced-motion rules and print pagination are present: **pass**.
-- The deck contains no unapproved price, revenue guarantee or outcome claim: **pass**.
+- The deck states the requester-supplied fixed terms of ₹8,000 upfront plus ₹1,200/month and the intended `dmdancestudio.in` handoff without a revenue guarantee or outcome claim: **pass**.
 
 ## Responsive visual checks
 

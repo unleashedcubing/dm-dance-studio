@@ -7,7 +7,7 @@ export const business = {
   phone: {
     display: '+91 91001 30108',
     tel: '+919100130108',
-    whatsapp: '919100130108'
+    whatsapp: '917702504241'
   },
   address: {
     display: 'Opposite Vijetha Super Market, Nallagandla, Telangana 500019',

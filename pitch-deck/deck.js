@@ -5,7 +5,6 @@ const previousButton = document.querySelector('#previous-slide');
 const nextButton = document.querySelector('#next-slide');
 const counter = document.querySelector('#slide-counter');
 const progress = document.querySelector('#progress-fill');
-const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 let currentIndex = 0;
 let touchStart = null;
 
@@ -35,26 +34,19 @@ function showSlide(index, { updateHash = true } = {}) {
   document.title = `${pad(currentIndex + 1)} · DM Dance Studio Website Concept`;
 }
 
-function scrollActive(amount) {
-  slides[currentIndex].scrollBy({ top: amount, behavior: reduceMotion ? 'auto' : 'smooth' });
-}
-
 previousButton.addEventListener('click', () => showSlide(currentIndex - 1));
 nextButton.addEventListener('click', () => showSlide(currentIndex + 1));
 
 document.addEventListener('keydown', (event) => {
   const target = event.target;
-  if (target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement) return;
+  if (target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement || target instanceof HTMLButtonElement || target instanceof HTMLAnchorElement || target.isContentEditable) return;
 
   if (event.key === 'ArrowLeft') { event.preventDefault(); showSlide(currentIndex - 1); }
   if (event.key === 'ArrowRight') { event.preventDefault(); showSlide(currentIndex + 1); }
   if (event.key === 'Home') { event.preventDefault(); showSlide(0); }
   if (event.key === 'End') { event.preventDefault(); showSlide(slides.length - 1); }
-  if (event.key === 'ArrowDown') { event.preventDefault(); scrollActive(120); }
-  if (event.key === 'ArrowUp') { event.preventDefault(); scrollActive(-120); }
-  if (event.key === 'PageDown') { event.preventDefault(); scrollActive(slides[currentIndex].clientHeight * .82); }
-  if (event.key === 'PageUp') { event.preventDefault(); scrollActive(slides[currentIndex].clientHeight * -.82); }
-  if (event.key === ' ') { event.preventDefault(); scrollActive(slides[currentIndex].clientHeight * (event.shiftKey ? -.82 : .82)); }
+  if (event.key === 'ArrowDown' || event.key === 'PageDown' || (event.key === ' ' && !event.shiftKey)) { event.preventDefault(); showSlide(currentIndex + 1); }
+  if (event.key === 'ArrowUp' || event.key === 'PageUp' || (event.key === ' ' && event.shiftKey)) { event.preventDefault(); showSlide(currentIndex - 1); }
 });
 
 document.addEventListener('touchstart', (event) => {
