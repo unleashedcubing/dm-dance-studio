@@ -21,7 +21,7 @@
 6. Privacy, WhatsApp retention, cancellation, participation and safety language.
 7. Registration and owner control of `dmdancestudio.in`, plus DNS and hosting account ownership.
 8. Whether public rating/follower figures should remain visible and how often they will be refreshed.
-9. The studio’s confirmed company WhatsApp number. Preview WhatsApp actions currently use the requester-supplied temporary number `7702504241`.
+9. Confirmation that the current Google listing number, `+91 91001 30108`, accepts WhatsApp.
 
 ## Credentials or provider accounts
 
@@ -45,5 +45,5 @@ There is no customer demo data. Unconfirmed schedules, prices and people are int
 - Official-account logo and photos are in use with requester-confirmed permission, but the available files are social-media derivatives; production should use supplied masters and retain release records.
 - Legal copy is a concept, not jurisdiction-specific legal advice.
 - A static WhatsApp journey has no lead history, analytics or staff workflow; add those only after verified operational need and secure backend design.
-- The current WhatsApp destination, `7702504241`, is temporary and must be replaced with the studio’s confirmed number before production.
+- WhatsApp currently uses the same number as the Google listing, `+91 91001 30108`; the owner should confirm that it accepts WhatsApp before production.
 - The site is deployed only as an independent GitHub Pages preview and has not been approved by the business or connected to an owner-controlled production domain.

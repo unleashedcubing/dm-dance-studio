@@ -32,7 +32,7 @@ npm run verify
 - Suitable for any static host or direct local preview.
 - `src/data/business.js` is the single editable source for the name, phone, address, hours, map and social links.
 - `src/trial.js` builds and sanitizes the WhatsApp handoff locally.
-- Call links retain the verified public studio number. For this preview only, WhatsApp is temporarily routed to requester-supplied `7702504241`; replace it with the studio’s confirmed WhatsApp number before production.
+- Call and WhatsApp actions use the current Google listing number, `+91 91001 30108`. Confirm that this number accepts WhatsApp before production.
 - `pitch-deck/` is a separate nine-slide owner presentation with keyboard, button and touch navigation. Every 16:9 desktop and 9:16 mobile slide is designed to fit without internal scrolling.
 - No analytics, cookies, database, email delivery, protected staff routes, accounts, or secrets.
 

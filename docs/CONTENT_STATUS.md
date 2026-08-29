@@ -16,7 +16,7 @@
 | Privacy and terms | Placeholder legal copy for static preview | Written in plain customer language without internal project commentary | Owner/legal reviewer approves production language |
 | Commercial website offer | Owner-supplied by requester, 2026-08-29 | Pitch states ₹8,000 upfront plus ₹1,200 per month as fixed terms | Reconfirm immediately before sending to owner |
 | Intended production domain | Owner-supplied by requester, 2026-08-29 | Pitch and handoff state `dmdancestudio.in` after offer acceptance | Register under owner control and configure after acceptance |
-| Temporary WhatsApp destination | Requester-supplied, 2026-08-29 | Preview WhatsApp actions use `7702504241` | Replace with the studio’s confirmed company WhatsApp number before production |
+| WhatsApp destination | Requester-directed from current Google listing, 2026-08-29 | Preview WhatsApp actions use `+91 91001 30108` | Owner confirms that the listing number accepts WhatsApp before production |
 | Owner/customer data | Sensitive | Not collected, seeded or stored | Define only if an owner-approved backend is later added |
 
 No customer data is present. The requester supplied media-use permission; business facts still require direct owner confirmation before production launch.

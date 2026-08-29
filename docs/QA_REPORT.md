@@ -20,7 +20,7 @@ Browser: Codex in-app Chromium surface against `http://127.0.0.1:4173/`.
 
 - Home title and primary H1: **pass**.
 - Verified call, Google Maps, Instagram and WhatsApp links populated from the single business data source: **pass**.
-- Call links remain on the verified public studio number, while every preview WhatsApp entry point resolves to the requester-supplied temporary destination `7702504241`: **pass**.
+- Call and WhatsApp links resolve to the current Google listing number, `+91 91001 30108`: **pass**.
 - Embedded Google Map resolves the correct DM Dance Studio Nallagandla listing and retains a direct directions fallback: **pass**.
 - Brand-color logo, favicon and three local official-account images load with their declared dimensions: **pass**.
 - Nine Instagram profile/reel links resolve to the expected official profile or exact reel; both gallery captions expose “Watch the full dance”: **pass**.
@@ -80,4 +80,4 @@ At every checked width, `document.documentElement.scrollWidth` equalled the view
 - Owner pitch: **200** at `https://unleashedcubing.github.io/dm-dance-studio/pitch-deck/`.
 - Privacy and terms pages: **200**.
 - Unknown path: **404**, with the repository's custom 404 detected by GitHub Pages.
-- Hosted browser DOM recheck: **pass**. The website exposes the verified call number and temporary WhatsApp destination separately; slide 8 exposes the fixed offer and `dmdancestudio.in` handoff on the live deck.
+- Hosted browser DOM recheck: **pass**. The website exposes the current Google listing number for call and WhatsApp actions; slide 8 exposes the fixed offer and `dmdancestudio.in` handoff on the live deck.

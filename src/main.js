@@ -1,4 +1,4 @@
-import { business } from './data/business.js?v=20260829';
+import { business } from './data/business.js?v=20260829-2';
 import { buildWhatsAppUrl } from './trial.js';
 
 document.title = `${business.name} | Dance in ${business.area}`;

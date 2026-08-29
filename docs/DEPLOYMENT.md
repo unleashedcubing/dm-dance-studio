@@ -32,7 +32,7 @@ Before launch:
 5. Change the meta robots policy and root `robots.txt` together; add a canonical URL, Open Graph image, production sitemap and Search Console only after approval.
 6. Configure HTTPS, `www`/apex redirects and rollback access.
 7. Ask the owner to update the Google Business Profile website field and official Instagram bio.
-8. Replace the temporary preview WhatsApp destination, `7702504241`, with the studio’s confirmed company WhatsApp number.
+8. Confirm that the current Google listing number, `+91 91001 30108`, accepts WhatsApp; update the single business data source if the owner supplies a different WhatsApp number.
 
 ## Email and forms
 
