@@ -75,9 +75,9 @@ At every checked width, `document.documentElement.scrollWidth` equalled the view
 
 ## Hosted verification
 
-- GitHub Pages build and deployment for commit `beb9f1627074d8216e9bef1ae2b57d66fed0f508`: **success**.
+- GitHub Pages build and deployment for the update containing feature commit `f3966be`: **success**.
 - Public website: **200** at `https://unleashedcubing.github.io/dm-dance-studio/`.
 - Owner pitch: **200** at `https://unleashedcubing.github.io/dm-dance-studio/pitch-deck/`.
 - Privacy and terms pages: **200**.
 - Unknown path: **404**, with the repository's custom 404 detected by GitHub Pages.
-- Hosted visual and console recheck: **not run** because the browser-testing surface was unavailable after deployment. Local browser journey, console and responsive checks remain passing; repeat them against the hosted URL before an owner meeting if the browser surface becomes available.
+- Hosted browser DOM recheck: **pass**. The website exposes the verified call number and temporary WhatsApp destination separately; slide 8 exposes the fixed offer and `dmdancestudio.in` handoff on the live deck.
